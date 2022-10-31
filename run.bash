@@ -1,0 +1,1 @@
+python generate_data.py ; cat input_file.txt | python compute.py
