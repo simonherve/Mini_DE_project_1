@@ -12,4 +12,10 @@ To execute the data pipeline type the command line in Powershell:
 ```
   python generate_data.py ; cat input_file.txt | python compute.py
 ```
+You can also create an image on Docker:
 
+```
+docker build -t data_pipeline .
+
+docker run data_pipeline
+```
